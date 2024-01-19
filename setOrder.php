@@ -166,7 +166,6 @@ if($show_request) {
 	$headers=array();
 	$headers[]="Authorization: Bearer ".$token;
 
-	$request = $xml_request;
 				
 	curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 	curl_setopt($curl, CURLOPT_URL, "https://api.unas.eu/shop/setOrder");
