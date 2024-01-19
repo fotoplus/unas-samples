@@ -157,7 +157,7 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 	</Order>	
 </Orders>';
 
-
+header('Content-Type:text/xml; charset=UTF-8');
 if($show_request) {
 	echo $request;
 } else {
