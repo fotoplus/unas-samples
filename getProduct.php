@@ -36,9 +36,6 @@ if($sku) {
     } else {
         $request='<?xml version="1.0" encoding="UTF-8" ?>
             <Params>
-                <StatusBase>1</StatusBase>
-                <LimitNum>1</LimitNum>
-                <LimitStart>0</LimitStart>
                 <ContentType>full</ContentType>
             </Params>';   
     }
