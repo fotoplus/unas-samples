@@ -31,8 +31,7 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 			amit a státuszuk alapján tud csak külön kezelni a CloudERP, 
 			mert ott nincs külön képrendelés típus.
 		-->
-		<Type><![CDATA[Képrendelés]]></Type>
-
+		<Type><![CDATA[Webáruház]]></Type>
 
 		<Lang>hu</Lang> 
 
@@ -53,8 +52,9 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 
 			<Addresses> 
 
-				<!--
-					Legalább számlázási adatnak kell lenni 
+				<!-- 
+					Számlázási adatok
+					https://unas.hu/tudastar/api/megrendelesek-adatszerkezet#customeraddressesinvoice
 				-->
 				<Invoice> 
 					<Name><![CDATA['.$user.'. Béla]]></Name> 
@@ -69,6 +69,26 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 					<CountryCode>hu</CountryCode> 
 					<CustomerType><![CDATA[private]]></CustomerType> 
 				</Invoice>
+
+				<!--		
+					Szállítási adatok
+					https://unas.hu/tudastar/api/megrendelesek-adatszerkezet#customeraddressesshipping
+				-->
+				<Shipping> 
+					<Name><![CDATA['.$user.'. Béla]]></Name> 
+					<ZIP>2222</ZIP> 
+					<City><![CDATA[Város]]></City> 
+					<Street><![CDATA[Véletlen utca '.$user.'.]]></Street>
+					<StreetName><![CDATA[Véletlen]]></StreetName> 
+					<StreetType><![CDATA[utca]]></StreetType> 
+					<StreetNumber><![CDATA['.$user.']]></StreetNumber>
+					<County><![CDATA[]]></County> 
+					<Country>Magyarország</Country> 
+					<CountryCode>hu</CountryCode> 
+
+					<!-- Az átvételi pontokhoz itt vannak még plussz mezők is! -->
+
+				</Shipping>
 
 			</Addresses>
 			<Comment><![CDATA[Megjegyzés]]></Comment> 		
@@ -145,8 +165,8 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 		<Items> 
 			<Item> 
 				<Id>1000</Id> 
-				<Sku>UNAS-0001</Sku> 
-				<Name><![CDATA[Teszt termék U-0001]]></Name> 
+				<Sku>U-0001</Sku> 
+				<Name><![CDATA[Teszt termék]]></Name> 
 				<Unit>db</Unit> 
 				<Quantity>1</Quantity> 
 				<PriceNet>100</PriceNet> 
