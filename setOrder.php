@@ -31,7 +31,8 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 			amit a státuszuk alapján tud csak külön kezelni a CloudERP, 
 			mert ott nincs külön képrendelés típus.
 		-->
-		<Type><![CDATA[Webáruház]]></Type>
+		<Type><![CDATA[Képrendelés]]></Type>
+		<Status><![CDATA[4494244]]></Status>
 
 		<Lang>hu</Lang> 
 
