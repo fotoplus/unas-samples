@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Methods>
+	<Method>
+		<Id>4058478</Id>
+		<Name><![CDATA[Futárral]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Order>1</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<ShippingFee>
+			<Type>amount</Type>
+			<Fee>
+				<LowerLimit>0</LowerLimit>
+				<UpperLimit>100000</UpperLimit>
+				<Amount>1990</Amount>
+			</Fee>
+			<Fee>
+				<LowerLimit>100000</LowerLimit>
+				<UpperLimit>-</UpperLimit>
+				<Amount>0</Amount>
+			</Fee>
+		</ShippingFee>
+		<Creation>2022.09.01 11:12:57</Creation>
+		<Modification>2024.05.23 09:40:16</Modification>
+	</Method>
+	<Method>
+		<Id>4933510</Id>
+		<Name><![CDATA[Futárral (törékeny)]]></Name>
+		<Active>no</Active>
+		<Type>shipping</Type>
+		<Order>2</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<ShippingFee>
+			<Type>amount</Type>
+			<Fee>
+				<LowerLimit>0</LowerLimit>
+				<UpperLimit>-</UpperLimit>
+				<Amount>3500</Amount>
+			</Fee>
+		</ShippingFee>
+		<Creation>2024.01.23 12:18:05</Creation>
+		<Modification>2024.05.23 09:40:47</Modification>
+	</Method>
+	<Method>
+		<Id>4933410</Id>
+		<Name><![CDATA[Személyes átvétel pécsi üzletünkben ]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Order>3</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<Creation>2024.01.23 12:10:46</Creation>
+		<Modification>2024.05.23 09:34:36</Modification>
+	</Method>
+	<Method>
+		<Id>4933420</Id>
+		<Name><![CDATA[Személyes átvétel budapesti üzletünkben ]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Order>4</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<Creation>2024.01.23 12:11:04</Creation>
+		<Modification>2024.05.23 09:27:46</Modification>
+	</Method>
+	<Method>
+		<Id>4933425</Id>
+		<Name><![CDATA[Személyes átvétel központi raktárunkban ]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Order>5</Order>
+		<DisplayOnContactPage>no</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<Limitations>
+			<CustomerGroups>
+				<CustomerGroup>
+					<Id>1293461</Id>
+					<Name><![CDATA[Teszt csoport]]></Name>
+				</CustomerGroup>
+			</CustomerGroups>
+		</Limitations>
+		<Creation>2024.01.23 12:11:23</Creation>
+		<Modification>2024.05.23 09:27:29</Modification>
+	</Method>
+	<Method>
+		<Id>4933500</Id>
+		<ProviderId>mpl_hu</ProviderId>
+		<Name><![CDATA[Postán]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Text><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></Text>
+		<AlterText><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></AlterText>
+		<Order>6</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<ShippingFee>
+			<Type>amount</Type>
+			<Fee>
+				<LowerLimit>0</LowerLimit>
+				<UpperLimit>100000</UpperLimit>
+				<Amount>1990</Amount>
+			</Fee>
+			<Fee>
+				<LowerLimit>100000</LowerLimit>
+				<UpperLimit>-</UpperLimit>
+				<Amount>0</Amount>
+			</Fee>
+		</ShippingFee>
+		<Creation>2024.01.23 12:15:58</Creation>
+		<Modification>2024.05.23 09:41:50</Modification>
+	</Method>
+	<Method>
+		<Id>4933505</Id>
+		<ProviderId>mpl_hu</ProviderId>
+		<Name><![CDATA[Postán (súlykorlátozás nélkül)]]></Name>
+		<Active>no</Active>
+		<Type>shipping</Type>
+		<Text><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></Text>
+		<AlterText><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></AlterText>
+		<Order>7</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<ShippingFee>
+			<Type>amount</Type>
+			<Fee>
+				<LowerLimit>0</LowerLimit>
+				<UpperLimit>100000</UpperLimit>
+				<Amount>1990</Amount>
+			</Fee>
+			<Fee>
+				<LowerLimit>100000</LowerLimit>
+				<UpperLimit>-</UpperLimit>
+				<Amount>0</Amount>
+			</Fee>
+		</ShippingFee>
+		<Creation>2024.01.23 12:17:17</Creation>
+		<Modification>2024.05.23 09:42:01</Modification>
+	</Method>
+	<Method>
+		<Id>4933495</Id>
+		<ProviderId>mpl_hu</ProviderId>
+		<Name><![CDATA[MPL Csomagautomatából]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Text><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></Text>
+		<AlterText><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></AlterText>
+		<Order>8</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<ShippingFee>
+			<Type>amount</Type>
+			<Fee>
+				<LowerLimit>0</LowerLimit>
+				<UpperLimit>100000</UpperLimit>
+				<Amount>1990</Amount>
+			</Fee>
+			<Fee>
+				<LowerLimit>100000</LowerLimit>
+				<UpperLimit>-</UpperLimit>
+				<Amount>0</Amount>
+			</Fee>
+		</ShippingFee>
+		<Creation>2024.01.23 12:15:03</Creation>
+		<Modification>2024.05.23 09:42:40</Modification>
+	</Method>
+	<Method>
+		<Id>4933490</Id>
+		<ProviderId>mpl_hu</ProviderId>
+		<Name><![CDATA[PostaPonton]]></Name>
+		<Active>yes</Active>
+		<Type>shipping</Type>
+		<Text><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></Text>
+		<AlterText><![CDATA[Ezzel szállítási móddal a Magyar Posta fiókjaiba vagy MOL töltőállomásokra kérheti a csomag kiszállítását.]]></AlterText>
+		<Order>9</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<ShippingFee>
+			<Type>amount</Type>
+			<Fee>
+				<LowerLimit>0</LowerLimit>
+				<UpperLimit>100000</UpperLimit>
+				<Amount>1990</Amount>
+			</Fee>
+			<Fee>
+				<LowerLimit>100000</LowerLimit>
+				<UpperLimit>-</UpperLimit>
+				<Amount>0</Amount>
+			</Fee>
+		</ShippingFee>
+		<Creation>2024.01.23 12:14:26</Creation>
+		<Modification>2024.05.23 09:42:57</Modification>
+	</Method>
+	<Method>
+		<Id>4933430</Id>
+		<Name><![CDATA[Elektronikus]]></Name>
+		<Active>no</Active>
+		<Type>shipping</Type>
+		<Order>10</Order>
+		<DisplayOnContactPage>yes</DisplayOnContactPage>
+		<Tax>27</Tax>
+		<Creation>2024.01.23 12:11:55</Creation>
+		<Modification>2024.01.23 12:11:55</Modification>
+	</Method>
+</Methods>
