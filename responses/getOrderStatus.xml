@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OrderStatuses>
+	<OrderStatus>
+		<Id>4058508</Id>
+		<Name><![CDATA[Feldolgozásra vár (webáruház)]]></Name>
+		<Type>open_normal</Type>
+		<Order>1</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2022.09.01 11:12:57</Creation>
+		<Modification>2024.02.13 17:48:10</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4058513</Id>
+		<Name><![CDATA[Jóváhagyva (webáruház)]]></Name>
+		<Type>open_normal</Type>
+		<Order>2</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2022.09.01 11:12:57</Creation>
+		<Modification>2024.02.12 21:46:05</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4058518</Id>
+		<Name><![CDATA[Csomagolható (webáruház)]]></Name>
+		<Type>open_normal</Type>
+		<Order>3</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2022.09.01 11:12:57</Creation>
+		<Modification>2024.02.13 17:50:31</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4983980</Id>
+		<Name><![CDATA[Kiszedés (webáruház)]]></Name>
+		<Type>open_normal</Type>
+		<Order>4</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 17:51:43</Creation>
+		<Modification>2024.02.13 17:52:12</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4983985</Id>
+		<Name><![CDATA[Kiszedve (webáruház)]]></Name>
+		<Type>open_normal</Type>
+		<Order>5</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 17:52:24</Creation>
+		<Modification>2024.02.13 17:52:53</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4983990</Id>
+		<Name><![CDATA[Helyszíni átvételre vár]]></Name>
+		<Type>open_normal</Type>
+		<Order>6</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 17:53:10</Creation>
+		<Modification>2024.02.13 20:56:45</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4058523</Id>
+		<Name><![CDATA[Kiszállítás alatt]]></Name>
+		<Type>open_normal</Type>
+		<Order>7</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2022.09.01 11:12:57</Creation>
+		<Modification>2024.02.13 20:59:45</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4983995</Id>
+		<Name><![CDATA[Kiszállítva]]></Name>
+		<Type>close_ok</Type>
+		<Order>8</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 17:54:22</Creation>
+		<Modification>2024.02.13 21:00:38</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4984000</Id>
+		<Name><![CDATA[Visszáru (webáruház)]]></Name>
+		<Type>open_normal</Type>
+		<Order>9</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 17:55:07</Creation>
+		<Modification>2024.02.13 17:55:32</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4058528</Id>
+		<Name><![CDATA[Megrendelés lezárva]]></Name>
+		<Type>close_ok</Type>
+		<Order>10</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2022.09.01 11:12:57</Creation>
+		<Modification>2024.02.13 20:57:38</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4983975</Id>
+		<Name><![CDATA[Visszamondva (webáruház)]]></Name>
+		<Type>close_fault</Type>
+		<Order>11</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>17</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 17:47:30</Creation>
+		<Modification>2024.02.13 17:47:30</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4494244</Id>
+		<Name><![CDATA[Jóváhagyásra vár (képrendelés)]]></Name>
+		<Type>open_normal</Type>
+		<Order>12</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2023.06.15 09:50:48</Creation>
+		<Modification>2024.05.08 10:36:08</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>5186631</Id>
+		<Name><![CDATA[Jóváhagyva (képrendelés)]]></Name>
+		<Type>open_normal</Type>
+		<Order>13</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.05.08 10:59:49</Creation>
+		<Modification>2024.05.08 11:02:18</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4494249</Id>
+		<Name><![CDATA[Folyamatban (képrendelés)]]></Name>
+		<Type>open_normal</Type>
+		<Order>14</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2023.06.15 09:51:34</Creation>
+		<Modification>2024.05.08 10:59:34</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4494254</Id>
+		<Name><![CDATA[Megrendelés lezárva (képrendelés)]]></Name>
+		<Type>close_ok</Type>
+		<Order>15</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2023.06.15 09:52:08</Creation>
+		<Modification>2024.02.12 21:47:10</Modification>
+	</OrderStatus>
+	<OrderStatus>
+		<Id>4984125</Id>
+		<Name><![CDATA[Visszamondva (képrendelés)]]></Name>
+		<Type>close_fault</Type>
+		<Order>16</Order>
+		<Alert>
+			<Email>no</Email>
+			<SMS>no</SMS>
+		</Alert>
+		<InvoiceStatus>default</InvoiceStatus>
+		<Color>not_specified</Color>
+		<StockColor>not_specified</StockColor>
+		<Creation>2024.02.13 18:34:46</Creation>
+		<Modification>2024.02.13 18:34:46</Modification>
+	</OrderStatus>
+</OrderStatuses>
