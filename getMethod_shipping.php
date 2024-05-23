@@ -1,16 +1,12 @@
 <?php
 
-
-
-
-
 /**
- * UNAS API - getCoupon
- * https://unas.hu/tudastar/api/kuponok
+ * UNAS API - getMethod (shipping)
+ * https://unas.hu/tudastar/api/fizetesi-szallitasi-modok
  * 
- * Itt a getCoupon végpontot tudjuk kipróbálni.
+ * Itt a getMethod végpontot tudjuk kipróbálni, a shipping paraméterrel,
+ * ami a szállítási módokat adja vissza.
  * 
- * Egy ?q=ABC paraméterrel konkrét kuponkódot is lekérhetünk a kódja alapján.
  * A ?showrequest=1 paraméterrel pedig a kérését láthatjuk.
  * 
  */
@@ -18,6 +14,7 @@
 require_once('config/config.php');
 $unas = require_once('credentials/unas.php');
 
+$show_request  = isset($_GET['showrequest']) ? true : false;
 
 $request='<?xml version="1.0" encoding="UTF-8" ?>
 <Params>
@@ -28,17 +25,21 @@ $request='<?xml version="1.0" encoding="UTF-8" ?>
 
 header('Content-Type:text/xml; charset=UTF-8');
 
-include('unas-api/auth.php');
+if($show_request) {
+	echo $request;
+} else {
 
-$headers=array();
-$headers[]="Authorization: Bearer ".$token;
-            
-curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
-curl_setopt($curl, CURLOPT_URL, "https://api.unas.eu/shop/getMethod");
-curl_setopt($curl, CURLOPT_POSTFIELDS,$request);
-$response = curl_exec($curl);
-echo $response;
+    include('unas-api/auth.php');
 
+    $headers=array();
+    $headers[]="Authorization: Bearer ".$token;
+                
+    curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($curl, CURLOPT_URL, "https://api.unas.eu/shop/getMethod");
+    curl_setopt($curl, CURLOPT_POSTFIELDS,$request);
+    $response = curl_exec($curl);
+    echo $response;
+}
 
 ?>
 
